@@ -1,0 +1,38 @@
+body {
+  background: url(../images/body.jpg);
+}
+
+.jumbotron {
+  background: url(../images/banner_burger.png);
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+h2, h4 {
+  text-align: center;
+  color: black;
+}
+
+.tan {
+  background-color: antiquewhite ;
+}
+
+.uneaten-div {
+  margin-right: 2%;
+}
+
+#input {
+  width: 250px;
+  height: 100px;
+}
+
+.btn-grey {
+  background-color: lightgray;
+  margin-left: 40%;
+}
+
+.btn-grey:hover {
+  background-color: grey;
+}
