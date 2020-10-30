@@ -6,8 +6,10 @@ body {
   background: url(../images/banner_burger.png);
   background-size: cover;
   color: white;
+  text-shadow: 3px 3px 5px gray;
   font-weight: bold;
   text-align: left;
+  font-family: 'Anton', sans-serif;
 }
 
 h2, h4 {
@@ -16,7 +18,8 @@ h2, h4 {
 }
 
 .tan {
-  background-color: antiquewhite ;
+  background-color: rgb(231, 225, 218) ;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .uneaten-div {
@@ -35,4 +38,31 @@ h2, h4 {
 
 .btn-grey:hover {
   background-color: grey;
+}
+
+button{
+  border: 2px solid;
+  border-radius: 8px;
+  border-color: grey;
+  background-color: rgba(240, 248, 255, 0.5);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgba(240, 248, 255, 0.9);
+}
+
+button.change-devoured {
+  float: right;
+}
+
+li {
+  padding: 2%;
+  width: 310px;
+}
+
+.newBurg {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: rgb(231, 225, 218) ;
+  padding: 2%;
 }
