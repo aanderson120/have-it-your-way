@@ -1,7 +1,7 @@
 const connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
-  const arr = [];
+  let arr = [];
 
   for (var i = 0; i < num; i++) {
     arr.push("?");
@@ -11,7 +11,7 @@ function printQuestionMarks(num) {
 }
 
 function objToSql(ob) {
-  const arr = [];
+  let arr = [];
 
   for (var key in ob) {
     let value = ob[key];
@@ -26,7 +26,7 @@ function objToSql(ob) {
   return arr.toString();
 }
 
-const orm = {
+let orm = {
   all: function(tableInput, cb) {
     let queryString = "SELECT * FROM " + tableInput + ";";
     connection.query(queryString, function(err, result) {
@@ -74,19 +74,19 @@ const orm = {
       cb(result);
     });
   },
-  delete: function(table, condition, cb) {
-    let queryString = "DELETE FROM " + table;
-    queryString += " WHERE ";
-    queryString += condition;
+  // delete: function(table, condition, cb) {
+  //   let queryString = "DELETE FROM " + table;
+  //   queryString += " WHERE ";
+  //   queryString += condition;
 
-    connection.query(queryString, function(err, result) {
-      if (err) {
-        throw err;
-      }
+  //   connection.query(queryString, function(err, result) {
+  //     if (err) {
+  //       throw err;
+  //     }
 
-      cb(result);
-    });
-  }
+  //     cb(result);
+  //   });
+  // }
 };
 
 module.exports = orm;
