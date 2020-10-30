@@ -1,9 +1,9 @@
 $(function() {
   $(".change-devoured").on("click", function(event) {
     let id = $(this).data("id");
-    let newDevoured = $(this).data("newdevoured"); //{ devoured: devour}; 
-    console.log(id)
-    console.log(newDevoured)
+    let newDevoured = $(this).data("newdevoured"); 
+    // console.log(id)
+    // console.log(newDevoured)
     let newDevouredState = {
       devoured: newDevoured
     };
@@ -13,7 +13,7 @@ $(function() {
       data: newDevouredState
     }).then(
       function() {
-        console.log("changed devoured to", newDevoured);
+        // console.log("changed devoured to", newDevoured);
         location.reload();
       }
     );
@@ -25,7 +25,7 @@ $(function() {
 
     const newBurger = {
       burger_name: $("#ca").val().trim(),
-      devoured: 0 //$("[name=devoured]:checked").val().trim()
+      devoured: 0
     };
 
     $.ajax("/api/burgers", {
@@ -33,7 +33,7 @@ $(function() {
       data: newBurger
     }).then(
       function() {
-        console.log("created new burger");
+        // console.log("created new burger");
         location.reload();
       }
     );
@@ -46,7 +46,7 @@ $(function() {
       type: "DELETE"
     }).then(
       function() {
-        console.log("deleted burger", id);
+        // console.log("deleted burger", id);
         location.reload();
       }
     );
