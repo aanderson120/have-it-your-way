@@ -1,8 +1,7 @@
-# have-it-your-way
-# Team-Directory
+# Have it your way
 
 ## Description
-A way for buisness owners to manage their team. View departments, roles, and employess, manage their promotions and view a departments budget.
+A fun app that lets you customize and eat burgers and track what you have eaten.
 
 ## Table of Contents
   
@@ -13,10 +12,10 @@ A way for buisness owners to manage their team. View departments, roles, and emp
 | [License Information](#license-information) |
     
 ## Installation
-The packages required to run this program are: mysql, util, inquirer
+The packages required to run this program are: mysql, expres, express-handlebars
   
 ## Use
-Follow the prompts to view departments, roles, or employees. Delete department, roles, or employees. Or make updates as needed. 
+Utilizes express and handlebars 
   
 ## Contributors
 - [Lindsey Bordner](https://github.com/LindseyM20)
