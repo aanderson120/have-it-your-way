@@ -3,6 +3,11 @@
 ## Description
 A fun app that lets you customize and eat burgers and track what you have eaten.
 
+## Deployed Site
+[Thoughts on Thoughts](https://have-it-your-way.herokuapp.com/)
+
+![walkthrough](./public/assets/images/index.png)
+
 ## Table of Contents
   
 | [Installation](#installation) |
