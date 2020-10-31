@@ -17,10 +17,10 @@ A fun app that lets you customize and eat burgers and track what you have eaten.
 | [License Information](#license-information) |
     
 ## Installation
-The packages required to run this program are: mysql, expres, express-handlebars
+Application is deployed through heroku otherwise the packages required to run this program are: mysql, express, express-handlebars.
   
 ## Use
-Utilizes express and handlebars 
+Utilizes express,handlebars, and mysql.
   
 ## Contributors
 - [Lindsey Bordner](https://github.com/LindseyM20)
