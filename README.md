@@ -20,7 +20,7 @@ A fun app that lets you customize and eat burgers and track what you have eaten.
 Application is deployed through heroku otherwise the packages required to run this program are: mysql, express, express-handlebars.
   
 ## Use
-Utilizes express,handlebars, and mysql.
+Utilizes Express,Handlebars, and MySql.
   
 ## Contributors
 - [Lindsey Bordner](https://github.com/LindseyM20)
