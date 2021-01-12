@@ -10,6 +10,7 @@ body {
   font-weight: bold;
   text-align: left;
   font-family: 'Anton', sans-serif;
+  box-shadow: 0 3px 6px #505050, 0 3px 6px #505050;
 }
 
 h2, h4 {
@@ -59,6 +60,14 @@ button.change-devoured {
 li {
   padding: 2%;
   width: 310px;
+}
+
+ul {
+  padding: 1%;
+}
+
+.card {
+  box-shadow: 0 3px 6px #505050, 0 3px 6px #505050;
 }
 
 .newBurg {
