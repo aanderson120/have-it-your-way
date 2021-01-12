@@ -25,7 +25,6 @@ Utilizes Express,Handlebars, and MySql.
 ## Contributors
 - [Lindsey Bordner](https://github.com/LindseyM20)
 - [Brooklynne Audette](https://github.com/B-Audette)
-- [Dortea Flores-Kestner](https://github.com/dfkestner)
   
 ## Test Instructions
 none
